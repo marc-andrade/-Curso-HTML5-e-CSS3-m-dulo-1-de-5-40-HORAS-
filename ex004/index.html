@@ -1,0 +1,34 @@
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Midias HTML5</title>
+ </head>
+ <body>
+     <h1>Imagem Dinamica</h1>
+     <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+     <picture>
+         <source media="(max-width: 750px)" srcset="foto-p.png" type="image/png">
+         <source media="(max-width: 1050px)" srcset="foto-m.png" type="image/png">
+         <img src="foto-g.png" alt="Foto grande">
+
+     </picture>
+     <h1>Reproduzindo Audio</h1>
+     <p>Aprendendo a reproduzir audio</p>
+    <audio preload="metadata" controls >
+     <source src="midia/Born a Rockstar - NEFFEX.mp3" type="audio/mpeg">
+     <source src="midia/Born a Rockstar - NEFFEX.ogg" type="audio/ogg">
+     <source src="midia/Born a Rockstar - NEFFEX.wav" type="audio/wav">
+     <p>Infelizmente seu navegador não consegue carregar o audio <a href="midia/Born a Rockstar - NEFFEX.mp3" download="midia/Born a Rockstar - NEFFEX.mp3" type="audio/mp3">Clique aqui para baixar o aqui mp3</a></p>
+    
+    </audio>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <video src="midia/pexels-sami-aksu-10207542.mp4" height="400" width="450"autoplay loop></video>
+
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/a1jMUiSR4Gg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+
+ </html>
